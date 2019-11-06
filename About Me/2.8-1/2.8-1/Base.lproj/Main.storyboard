@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pwy-CA-uov">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Interests-->
+        <scene sceneID="fcc-Fj-EAb">
+            <objects>
+                <viewController id="ZNa-ob-o0Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sDm-rl-BbV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="UHN-Xv-tDr">
+                                <rect key="frame" x="20" y="61" width="132" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Burger" translatesAutoresizingMaskIntoConstraints="NO" id="HUP-zD-DDb">
+                                <rect key="frame" x="262" y="61" width="132" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter" translatesAutoresizingMaskIntoConstraints="NO" id="HI4-pt-gja">
+                                <rect key="frame" x="20" y="363" width="132" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Clash" translatesAutoresizingMaskIntoConstraints="NO" id="mpd-h2-FRl">
+                                <rect key="frame" x="20" y="660" width="132" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-09-19 at 2.15.23 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Vtu-K3-6Yv">
+                                <rect key="frame" x="262" y="363" width="132" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HK" translatesAutoresizingMaskIntoConstraints="NO" id="QNw-Wj-moA">
+                                <rect key="frame" x="262" y="660" width="132" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hOx-UV-wVc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Interests" id="CrQ-t4-pTD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rGm-Xa-RA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717" y="-190"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="VoX-Vb-3Uo">
+            <objects>
+                <viewController id="50R-NB-Syp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QTP-EE-OJ5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Rayan Khan" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWA-d5-fJR">
+                                <rect key="frame" x="87" y="50" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="1" green="0.01208707165" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="tUm-4J-Ri7">
+                                <rect key="frame" x="110" y="121" width="194" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Hi I'm Rayan! I can speak 5 languages. I want to become an Apple Developer when I grow up and build apps and frameworks. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MGj-fF-5SJ">
+                                <rect key="frame" x="27" y="423" width="360" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.018125088720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="tfD-CP-KiO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" id="cWr-an-FGj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGj-aQ-uPs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717" y="-838"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xbW-e2-nzZ">
+            <objects>
+                <tabBarController id="Pwy-CA-uov" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KXT-qX-sA8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="50R-NB-Syp" kind="relationship" relationship="viewControllers" id="ldD-ng-yZC"/>
+                        <segue destination="ZNa-ob-o0Y" kind="relationship" relationship="viewControllers" id="raD-rz-SD7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05h-3y-uVj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="-514"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apple" width="500" height="500"/>
+        <image name="Burger" width="1200" height="1200"/>
+        <image name="Clash" width="900" height="900"/>
+        <image name="HK" width="512" height="512"/>
+        <image name="Image" width="1730" height="2586"/>
+        <image name="Screen Shot 2019-09-19 at 2.15.23 PM" width="370" height="622"/>
+        <image name="Twitter" width="626" height="626"/>
+    </resources>
+</document>
